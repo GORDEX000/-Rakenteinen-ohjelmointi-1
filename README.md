@@ -1,1 +1,1 @@
-# -Rakenteinen-ohjelmointi-1
+# -Here is the bacis of coding in python
