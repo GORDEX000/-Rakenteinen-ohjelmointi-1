@@ -1,39 +1,35 @@
 import math
 
-def sum():
-    firstNum = int(input("Give me a Number:"))
-    secondNum = int(input("Give me a second Number:"))
+def sum(firstNum, secondNum):
     print("The result is: ", firstNum + secondNum)
 
-def minus():
-    firstNum = int(input("Give me a Number:"))
-    secondNum = int(input("Give me a second Number:"))
+def minus(firstNum, secondNum):
     print("The result is: ", firstNum - secondNum)
 
-def multi():
-    firstNum = int(input("Give me a Number:"))
-    secondNum = int(input("Give me a second Number:"))
+def multi(firstNum, secondNum):
     print("The result is: ", firstNum * secondNum)
 
-def division():
-    firstNum = int(input("Give me a Number:"))
-    secondNum = int(input("Give me a second Number:"))
+def division(firstNum, secondNum):
     print("The result is: ", firstNum / secondNum)
 
-def firstDegreeEguation():
-    firstNum = int(input("Give me a Number:"))
-    secondNum = int(input("Give me a second Number:"))
+def minimum(firstNum, secondNum):
+    if(firstNum < secondNum):
+        print(firstNum)
+    else:
+        print(secondNum)
+
+def maximum(firstNum, secondNum):
+    if(firstNum > secondNum):
+        print(secondNum)
+    else:
+        print(firstNum)
+
+def firstDegreeEguation(firstNum, secondNum):
     ab = -int(secondNum) / int(firstNum)
     print("x = ", ab)
 
-def secondDegreeEguation():
-    a = float(input("give me first: "))
-    b = float(input("give me second: "))
-    c = float(input("give me therd: "))
-
+def secondDegreeEguation(a, b, c):
     d = b * b - 4 * a * c
-    
-
     if(d < 0):
         print("has no result: ")
     elif(d == 0):

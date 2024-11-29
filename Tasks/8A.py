@@ -6,39 +6,35 @@ userChoice = input()
 
 if(userChoice == "1"):
     firstNum = int(input("Give me the first Number: "))
-
     secondNum = int(input("Give me the first Number: "))
-    
     print("The result is: ",firstNum + secondNum)
 elif(userChoice == "2"):
     firstNum = int(input("Give me the first Number: "))
-
     secondNum = int(input("Give me the first Number: "))
-    
     print("The result is: ",firstNum - secondNum)
 elif(userChoice == "3"):
     firstNum = int(input("Give me the first Number: "))
-
     secondNum = int(input("Give me the first Number: "))
-
     print("The result is: ",firstNum * secondNum)
 elif(userChoice == "4"):
     firstNum = int(input("Give me the first Number: "))
-
     secondNum = int(input("Give me the first Number: "))
-    
     print("The result is: ",firstNum / secondNum)
 elif(userChoice == "5"):
     firstNum = int(input("Give me the first Number: "))
-
     secondNum = int(input("Give me the first Number: "))
-    
+    if(firstNum < secondNum):
+        print(firstNum)
+    else:
+        print(secondNum)
     print("The result is: ",firstNum - secondNum)
 elif(userChoice == "6"):
     firstNum = int(input("Give me the first Number: "))
-
     secondNum = int(input("Give me the first Number: "))
-    
+    if(firstNum > secondNum):
+        print(secondNum)
+    else:
+        print(firstNum)
     print("The result is: ",firstNum - secondNum)
 elif(userChoice == "7"):
     firstNum = int(input("Give me the first Number: "))
