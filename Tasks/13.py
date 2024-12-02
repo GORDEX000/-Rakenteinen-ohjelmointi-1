@@ -1,5 +1,10 @@
 i = 0
 
 while (i < 1001):
-    print(f"{i:,}")
+    print(i,",")
+    print(i)
     i += 1
+
+
+
+
