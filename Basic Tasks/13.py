@@ -1,10 +1,8 @@
+lst = []
 i = 0
 
 while (i < 1001):
-    print(i,",")
-    print(i)
+    lst.append(i)
     i += 1
 
-
-
-
+print(lst)
