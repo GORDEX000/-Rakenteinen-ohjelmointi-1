@@ -6,5 +6,8 @@ def sumNumbersBetween(start, end):
         i += 1
         e += i
 
+    return e
 
-sumNumbersBetween(12, 23)
+
+sum = sumNumbersBetween(4, 6)
+print("sum is", sum)
